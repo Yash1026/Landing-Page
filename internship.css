@@ -1,0 +1,169 @@
+
+  a{
+    text-decoration:none;
+    color:#444444;
+  }
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: rgba(49, 14, 78, 0.9);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin:10px;
+    width: max-content;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #7021d6;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 350px;
+  }
+  
+  .col-25 {
+      font-size: 15px;
+    text-align: left;
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+      font-size: 15px;
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 768px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+
+    input[type=submit]{
+        background-color: rgba(49, 14, 78, 0.9);
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: right;
+        margin:10px;
+        width: max-content;
+
+    }
+  }
+  #logo-google{
+    padding: 10px 13px 10px 13px; 
+    background-color:#dd4b39;
+    color: white;
+    border-radius: 80px;
+    text-decoration: none;
+  }
+  #logo-twitter{
+    padding: 10px 10px 10px 10px; 
+    background-color: #55ACEE;
+    color: white;
+    border-radius: 80px;
+    text-decoration: none;
+  }
+  #logo-insta{
+    padding: 10px 11px 10px 11px; 
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+    color: white;
+    border-radius: 80px;
+    text-decoration: none;
+  }
+  #logo-snap{
+    padding: 10px 11px 10px 11px; 
+    background-color: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    border-radius: 80px;
+    text-decoration: none;
+  }
+  #logo-git{
+    padding: 10px 11px 10px 11px; 
+    background-color:#211F1F;
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+  }
+  .fade-in-text {
+    font-size: 40px;
+    margin-left: 12.5%;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-name: slidein;
+  }
+  @-webkit-keyframes slidein {
+    from {
+        margin-left: -10%;
+        width: 100%;
+    }
+
+    to {
+        margin-left: 12.5%;
+        width: 100%;
+    }
+}
+.fade-in-details {
+    margin-left: 5%;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-name: slidein1;
+  }
+  @-webkit-keyframes slidein1 {
+    from {
+        margin-left: -10%;
+        width: 100%;
+    }
+
+    to {
+        margin-left: 5%;
+        width: 100%;
+    }
+}
+body{
+  display:block;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-name: display;
+}
+@-webkit-keyframes display {
+  from {
+     opacity: 0%;
+  }
+
+  to {
+      opacity: 100%;
+  }
+}
+@media screen and (max-width: 1024px) {
+.img{
+  margin-left: 10%;
+}
+  }

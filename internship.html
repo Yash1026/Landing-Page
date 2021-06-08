@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThinkGroupy</title>
+    <link rel="icon" href="icon.jpg" type="image/gif" sizes="16x16">
+    <link href="internship.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  
+  
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <a class="navbar-brand" href="#">ThinkGroupy</a>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+      
+        <li class="nav-item">
+          <a type="button" class="nav-link"  data-toggle="modal" data-target="#exampleModalCenter">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div style="background-color:rgb(196, 91, 196);; border-top-left-radius: 25px; border-bottom-left-radius: 25px;border-top-right-radius: 25px; border-bottom-right-radius: 25px; margin-left: 20px; margin-right: 25px; margin-top: 100px;">
+<div style="padding: 0%;"class="container">
+  <div style="height:max-content; background-color: rgb(196, 91, 196);" class="row">
+    <div style="border-radius:25px;position:relative; top:-45px; box-shadow: 0px 0px 20px 3px; background-color:whitesmoke; "  class="col">
+      <form action="/action_page.php">
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">Your Name</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="fname" name="firstname">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Your Company Name</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="lname" name="lastname" >
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="country">Your Headquater</label>
+          </div>
+          <div class="col-75">
+            <select id="country" name="country">
+                
+              <option value="Bangalore">Bangalore</option>
+              <option value="Pune">Pune</option>
+              <option value="Hyderabad">Hyderabad</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="subject">What you think we may assist you with</label>
+          </div>
+          <div class="col-75">
+            <textarea id="subject" name="subject" style="height: 170px"></textarea>
+          </div>
+        </div><br>
+        <div class="row">
+          <input style="background-color: rgb(196, 91, 196); " type="submit" value="Proceed">
+        </div>
+      </form>
+    </div>
+    <div style="background-color: rgb(196, 91, 196); " class="col"><br>
+      <h1 class="fade-in-text" style=" color:white;" >ThinkGroupy Partners</h1>
+
+ 
+        <div class="row">
+          <div class="col"><img class="img" style="margin-top: 50px;" src="razorpay.png"></div>
+          <div class="col"><img class="img" style="margin-top: 50px;" src="amazon.png"></div>
+          <div class="w-100"></div>
+          <div class="col"><img class="img" style="margin-top: 80px;" src="exotel.png"></div>
+          <div class="col"> <img class="img" style="margin-top: 80px;" src="freshwork.png"></div>
+        </div>
+  </div>
+  </div>
+  </div>
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">You Can Reach us at</h5>
+        </div>
+        <div class="modal-body">
+            <div   class="card card-body">
+                <div style="text-align: center; padding-bottom:50px; padding-top:50px; margin:10px;">
+                <a style="text-decoration: none;" id="logo-google" href="#" class="fa fa-google"></a>
+                <a style="text-decoration: none;" id="logo-insta" href="#" class="fa fa-instagram"></a>
+                <a style="text-decoration: none;" id="logo-twitter" href="#" class="fa fa-linkedin"></a>
+                </div>
+                </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="mt-5 pt-5 pb-5 footer">
+    <div >
+      <div class="row">
+        <div class="col-lg-5 col-xs-12 about-company">
+          <h4 style="font-size: 40px;margin-left: 20px;" class="mt-lg-0 mt-sm-4">About</h4>
+          <p style="font-size: 15px; color: black; margin-left: 20px;" >Thinkgroupy re-imagines your boundaries. We are a startup that focuses primarily on cyber attacks and legit ways to find a bug in other startup platforms and tell and help them to fix that vulnerability so that they don't suffer a loss. The best part is we aren't some experts in making our customer's platform hackproof but we are a community where we bring all illegal cyber experts, researchers, students to work legally and find a bug in our customer's platforms such as Upstox, etc. currently, we have more than 450+ experts from their respective field.</p>
+          
+        </div>
+        <div class="col-lg-3 col-xs-12 links">
+         
+            
+        </div>
+        <div class="col-lg-4 col-xs-12 location">
+          <h4 style="font-size: 40px;"  class="mt-lg-0 mt-sm-3"> Useful Links</h4>
+            <ul style="list-style-type:none;"class="m-0 p-0">
+              <li> <a style="text-decoration: none; font-size:25px;" href="#">Link 1</a></li>
+              <li> <a style="text-decoration: none; font-size:25px;" href="#">Link 2</a></li>
+            </ul>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div style="color: black;">
+          <p style="text-align: center;"><small style="color: black; text-align: center;">© 2021. All Rights Reserved. &nbsp;&nbsp; ThinkGroupy</small></p>
+        </div>
+      </div>
+    </div>
+    </div>
+          
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
